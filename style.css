@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-image:url(travel-background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 75vh;
+
+}
+html {
+  scroll-behavior: smooth;
+}
+
+#home,
+#services,
+#aboutus,
+#gallery {
+  scroll-margin-top: 90px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 30px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo img{
+    width: 30px;
+}
+.travel-des{
+    text-align: center;
+    margin-top: 25%;
+}
+.para1,.para2{
+    font-weight: bold;
+    font-size: large;
+    margin-top: 10px;
+}
+.services h1{
+    text-align: center;
+    margin-top: 40%;
+    margin-bottom: 5%;
+}
+.card1 span,.card2 span,.card3 span{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.service-cards{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+.card1, .card2,.card3{
+    border: 1px solid rgb(90, 88, 88);
+    height: 260px;
+    border-radius: 10px;
+    width: 250px;
+}
+.card1 img,.card2 img,.card3 img{
+    width: 248px;
+    border-radius: 10px;
+}
+.aboutus-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8%;
+    margin-top: 10%;
+    background-color: rgb(217, 232, 236);
+    padding: 30px;
+}
+.aboutus-section img{
+    width: 400px;
+    height: 350px;
+}
+.aboutus{
+    width: 400px;
+    text-align: justify;
+}
+.aboutus h1{
+    margin-bottom: 10px;
+}
+.gallery-container{
+    margin-top: 10%;
+}
+.gallery-container h1{
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+.gallery1{
+    width: 400px;
+    height: 500px;
+}
+.gallery2{
+    width: 370px;
+    height: 350px;
+}
+.gallery3{
+    width: 350px;
+    height: 320px;
+}
+.gallery4{
+    width: 300px;
+    height: 300px;
+}
+.gallery5{
+    width: 270px;
+    height: 270px;
+}
+.gallery img{
+  transition: transform 0.8s ease, box-shadow 0.8s ease;
+  border-radius: 10px;
+}
+
+.gallery img:hover{
+  transform: scale(0.8) translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
+.nav-links a{
+    display: inline-block;
+    transition: transform 0.8s ease-in-out, background-color 0.8s ease-in-out,font-weight 0.8s ease-in-out;
+    border-radius: 5px;
+    padding: 10px;
+}
+.nav-links a:hover{
+    transform: scale(1.1);
+    background-color: rgb(206, 205, 205);
+    font-weight: bold;
+}
+
+
+
