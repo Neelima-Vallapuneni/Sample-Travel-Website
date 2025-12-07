@@ -18,9 +18,8 @@ This is a personal and responsive **Travel Website** built using **HTML** and **
 
 ## Live Demo
 You can view the live demo of the project here:  
-👉 https://your-username.github.io/travel-website/
+👉 https://neelima-vallapuneni.github.io/Sample-Travel-Website/
 
-*(Replace with your real GitHub Pages link)*
 
 ## How to Run
 1. Download the project files.  
@@ -35,5 +34,6 @@ You can view the live demo of the project here:
 
 ## Author
 Neelima Vallapuneni
+
 
 
