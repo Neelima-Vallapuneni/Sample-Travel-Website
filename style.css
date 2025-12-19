@@ -8,8 +8,7 @@ body{
     background-image:url(travel-background.jpg);
     background-repeat: no-repeat;
     background-size:cover;
-    background-position: center;
-    height: 75vh;
+    height: 100vh;
 
 }
 html {
@@ -60,7 +59,7 @@ html {
 }
 .services h1{
     text-align: center;
-    margin-top: 40%;
+    margin-top: 50%;
     margin-bottom: 5%;
 }
 .card1 span,.card2 span,.card3 span{
@@ -112,8 +111,7 @@ html {
 }
 .gallery-container h1{
     text-align: center;
-    position: relative;
-    top: 50px;
+    margin-bottom: 20px;
 }
 .gallery1{
     width: 400px;
@@ -157,8 +155,6 @@ html {
 }
 
 @media (max-width: 600px) {
-
-  /* Header */
   .header {
     flex-direction: column;
     padding: 10px;
@@ -170,8 +166,6 @@ html {
     padding: 6px;
     font-size: 14px;
   }
-
-  /* Home section */
   .travel-des {
     margin-top: 40%;
     padding: 0 15px;
@@ -181,7 +175,6 @@ html {
     font-size: 14px;
   }
 
-  /* Services */
   .services h1 {
     margin-top: 60%;
   }
@@ -200,7 +193,6 @@ html {
     width: 100%;
   }
 
-  /* About Us */
   .aboutus-section {
     flex-direction: column;
     gap: 20px;
@@ -213,7 +205,7 @@ html {
     height: auto;
   }
 
-  /* Gallery */
+
   .gallery {
     display: flex;
     flex-direction: column;
@@ -226,7 +218,4 @@ html {
     height: auto;
   }
 }
-
-
-
 
